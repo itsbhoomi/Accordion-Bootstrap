@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion</title>
+    <link rel="stylesheet" href="accordion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-info text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        HTML
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>What is HTML?</strong> <p>HTML stands for Hyper Text Markup Language
+
+                        HTML is the standard markup language for creating Web pages
+
+                        HTML describes the structure of a Web page
+
+                        HTML consists of a series of elements
+
+                        HTML elements tell the browser how to display the content
+
+                        HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this
+                        is a link", etc.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        CSS
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>What is CSS?
+                        </strong>
+                        <p>CSS stands for Cascading Style Sheets
+
+                        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+
+                        CSS saves a lot of work.
+                        
+                        It can control the layout of multiple web pages all at once
+
+                        External stylesheets are stored in CSS files.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Bootstrap
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>What is Bootstrap?</strong> 
+                        
+                        <p>Bootstrap is the most popular HTML, CSS, and JavaScript
+                        framework for developing responsive, mobile-first websites.
+
+                        Bootstrap is completely free to download and use!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        React
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body"><strong>What is React?
+                    </strong>
+                        <p>React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by Facebook.
+
+                            React is a tool for building UI components.</p>
+                        <strong>How does React Work?
+                        </strong> <p>React creates a VIRTUAL DOM in memory.
+
+                        Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where
+                        it does all the necessary manipulating, before making the changes in the browser DOM.
+
+                        React only changes what needs to be changed!
+
+                        React finds out what changes have been made, and changes only what needs to be changed.
+
+                        You will learn the various aspects of how React does this in the rest of this tutorial.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed bg-info text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Java
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>JavaScript Introduction
+                        </strong> <p>JavaScript is the world's most popular programming language.
+
+                            JavaScript is the programming language of the Web.
+                            
+                            JavaScript is easy to learn.
+                            
+                            This tutorial will teach you JavaScript from basic to advanced.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
